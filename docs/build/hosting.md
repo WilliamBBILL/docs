@@ -82,7 +82,7 @@ For privacy reasons, Juno's [authentication](authentication.md) is linked to the
 
 This means that if a user signs in to your app on the default domain (`icp0.io`) and your custom domain, they will be treated as two separate users.
 
-This mechanism is in place to prevent tracking between sites. It is recommended to use only communicate one domain to your users to avoid any confusion.
+This mechanism is in place to prevent tracking between sites. It is recommended to use only one domain to communicate to your users to avoid any confusion.
 
 If you do want to migrate from the default domain to a custom domain without your users being treated as seperate users, you can make use of [alternative frontend origins](https://internetcomputer.org/docs/current/developer-docs/integrations/internet-identity/alternative-origins/).
 
